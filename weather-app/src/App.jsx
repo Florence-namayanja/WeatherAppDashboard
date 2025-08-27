@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './index.css'
+import NavBar from "./components/NavBar";
+import Dashboard from "./components/Dashboard";
+
 
 function App() {
   
 
   return (
     <>
-      <h1 className='bg-red-500'>human love</h1>
-       
+      <NavBar />
+      <Dashboard />
     </>
   )
 }
